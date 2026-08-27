@@ -33,7 +33,7 @@ const games = [
 {
   id: 4,
   titte: "Efootball",
-  genre: "Sport simulator",
+  genre: "Sports",
   price: 0.00,
   isFree: true,
   rating: 4.8,
@@ -53,7 +53,7 @@ const games = [
 {
   id: 6,
   titte: "EAFC 2027",
-  genre: "Action",
+  genre: "Sports",
   price: 30.12,
   isFree: false,
   rating: 4.2,
