@@ -9,6 +9,7 @@ function Home() {
          <Link to="/games" className="explore-button">
             Explore Games
         </Link>
+        
      </div>
     );
 }

@@ -9,16 +9,16 @@ function Games() {
     const [searchTerm, setSearchTerm] = useState("");
     const [genreFilter, setGenreFilter] = useState("All");
 
-    useEffect(() => {
-  const timer = setTimeout(() => {
-    setGames(allGames);
-  }, 300);
+     useEffect(() => {
+    const timer = setTimeout(() => {
+      setGames(allGames);
+    }, 300);
 
-  return () => clearTimeout(timer);
-}, []);
+    return () => clearTimeout(timer);
+    }, []);
 
-const filteredGames = games
-.filter((g) => g.title.toLowerCase().includes(searchTerm.toLowerCase()))
+  const filteredGames = games
+.filter((g) => g.title?.toLowerCase().includes(searchTerm.toLowerCase()))
 .filter((g) => genreFilter === "All" || g.genre === genreFilter);
 
 return (
@@ -53,4 +53,6 @@ return (
 </div>
 );
 }
+
+
 export default Games;

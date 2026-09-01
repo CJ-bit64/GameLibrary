@@ -13,7 +13,7 @@ function GameDetails() {
         return <p>Game not found.</p>;
     }
 
-    function forGameAdd() {
+    function handleAdd() {
         addToLibrary(game);
         navigate("/library");
     }
@@ -29,7 +29,7 @@ function GameDetails() {
                 {game.isFree ? "Free" : `$${game.price.toFixed(2)}`}
             </p>
 
-            <button onClick={forGameAdd}>
+            <button onClick={handleAdd}>
                 {isInLibrary(game) ? "In Library" : "Add to Library"}
             </button>
         </div>
