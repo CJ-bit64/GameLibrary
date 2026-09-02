@@ -7,7 +7,7 @@ const games = [
   price: 16.00,
   isFree: false,
   rating: 4.4,
-  image: "https://placehold.co/300x400/1b2838/66c0f4?text=NEED+FOR+SPEED+MW2012",
+  image: "/images/nfs mw2012.jpg",
   description: "High speed racing, maneuvers and competition across large maps"
 },
 {
@@ -17,7 +17,7 @@ const games = [
   price: 0.00,
   isFree: true,
   rating: 4.6,
-  image: "https://placehold.co/300x400/1b2838/66c0f4?text=CALL+OF+DUTY",
+  image: "/images/call of duty.jpg",
   description: "FPS/TPP High paced battle royale, Large multiplayer base, large maps, black market, alcatraz"
 },
 {
@@ -27,7 +27,7 @@ const games = [
   price: 30.16,
   isFree: false,
   rating: 4.8,
-  image: "https://placehold.co/300x400/1b2838/66c0f4?text=GTA5",
+  image: "/images/gta5.jpg",
   description: "TPP role playing crime simulator story mode game, Large storymode content and missions"
 },
 {
@@ -37,7 +37,7 @@ const games = [
   price: 0.00,
   isFree: true,
   rating: 4.8,
-  image: "https://placehold.co/300x400/1b2838/66c0f4?text=Efootball",
+  image: "/images/efootblall2.webp",
   description: "sport simulator, Career mode,competitive multiplayer, Good graphics and good playerlikness"
 },
 {
@@ -47,7 +47,7 @@ const games = [
   price: 17.12,
   isFree: false,
   rating: 4.7,
-  image: "https://placehold.co/300x400/1b2838/66c0f4?text=SEKIRO",
+  image: "/images/sekiro.jpg",
   description: "TPP role playing action story mode game, Large storymode content and missions"
 },
 {
@@ -57,7 +57,7 @@ const games = [
   price: 30.12,
   isFree: false,
   rating: 4.2,
-  image: "https://placehold.co/300x400/1b2838/66c0f4?text=EAFC+2027",
+  image: "/images/fc26.png",
   description: "Sport simulator career mode game, Large multiplayermode content and competition, poor rating cus they nerfed ronaldo"
 },
 ];
