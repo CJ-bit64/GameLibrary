@@ -125,3 +125,125 @@ button:disabled {
 .library-page {
   padding: 24px;
 }
+
+.hero {
+  width: 100%;
+ margin: auto;
+  height: 450px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+
+  background-image: url("/images/HomepageIMG.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.herocontent{
+  width: 80vw;
+  margin: auto;
+
+ 
+}
+.featuredtxt{
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 15px;
+
+  font-size: larger;
+  font-weight: 700;
+  color: snow;
+}
+.backdropsubsec{
+   width: 80vw;
+ margin: auto;
+  height: 450px;
+  margin-bottom: 15px;
+
+  background-image:
+   linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+   url("/images/psbackdrop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.herosubsec {
+  width: 80vw;
+  
+  margin: auto;
+  display: flex;
+  height: 400px;
+
+}
+.herosubsecleft {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+
+}
+.herosubsecright {
+  width: 30%;
+  display: flex;
+  background-color: #1e3249;
+  padding: 5px;
+  flex-direction: column;
+  height: 410px;
+
+}
+.herosubsecrightimgs {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+gap: 10px;
+  height: 210px;
+  margin-bottom: 0px;
+
+
+}
+
+.badge {
+  width: max-content;
+  background-color: rgb(25, 35, 51);
+  border-radius: 3px;
+  margin-bottom: 0px;
+  align-self: flex-end;
+  padding: 3px;
+}
+
+.explore-button {
+  margin-top: 40px;
+  text-decoration: none;
+  color: snow;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(40, 135, 33);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.mediumtxt{
+  font-size: large;
+  font-weight: 600;
+ 
+  margin-bottom: 0px;
+}
+
+.explore-button:hover {
+  background-color: rgb(30, 105, 25);
+ 
+}
+.topseller{
+  font-size: medium;
+  font-weight: 500;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  color: rgb(144, 206, 63);
+}
+.reviewtxt{
+   font-size: medium;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: rgb(132, 194, 230);
+}
