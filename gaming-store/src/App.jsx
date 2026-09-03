@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Games from './pages/Games';
 import Library from './pages/Library';
 import GameDetails from './pages/GameDetails';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (

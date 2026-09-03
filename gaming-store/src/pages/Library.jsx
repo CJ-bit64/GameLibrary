@@ -10,7 +10,7 @@ function Library() {
       {library.length === 0 ? (
      <p>your library is empty. go add fifa cus ronaldo is the goat</p>
       ) : (
-        <div className="game-grid">
+        <div className="games-grid">
           {library.map((game) => (
             <div key={game.id} className="game-card">
               <img src={game.image} alt={game.title} />
