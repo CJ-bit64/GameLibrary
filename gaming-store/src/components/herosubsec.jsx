@@ -15,7 +15,7 @@ function HeroSubSec(){
             
             <p className="herosubsec">
                 <p className="herosubsecleft">
-                    <video controls height={400}>
+                    <video controls >
                         <source src={vid1}/>
                     </video>
                     
@@ -25,10 +25,10 @@ function HeroSubSec(){
 
                 <p className="reviewtxt">Mostly Positive (14805 eviews)</p>
                     <p className="herosubsecrightimgs">
-                        <img src={img2} height={100}/>
-                        <img src={img3} height={100}/>
-                        <img src={img4} height={100}/>
-                        <img src={img5} height={100}/>
+                        <img src={img2} className="game-images"/>
+                        <img src={img3} className="game-images"/>
+                        <img src={img4} className="game-images"/>
+                        <img src={img5} className="game-images"/>
                     </p>
 
 
